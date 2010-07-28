@@ -1,6 +1,16 @@
 = nanoc-video-filter
 
-Description goes here.
+A nanoc3 item filter that converts video items into video files suitable for playback
+in HTML5 video controls, iPhones, iPods, iPads, etc.
+
+For a video player that can elegantly handle html5 video, with a fallback to flash if the
+browser does not support html5 video (or cannot play back h.264) then look at video.js
+project at http://videojs.com
+
+== Dependencies
+
+This filter calls out to ffmpeg and MP4Box via the shell, so both of those applications need
+to be installed.
 
 == Note on Patches/Pull Requests
  
@@ -14,4 +24,4 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2010 Cameron Pope. See LICENSE for details.
+Copyright (c) 2010 The Aboutbox, Inc. all rights reserved. See LICENSE for details.
