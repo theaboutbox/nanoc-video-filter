@@ -5,8 +5,8 @@ begin
   require 'jeweler'
   Jeweler::Tasks.new do |gem|
     gem.name = "nanoc-video-filter"
-    gem.summary = %Q{TODO: one-line summary of your gem}
-    gem.description = %Q{TODO: longer description of your gem}
+    gem.summary = %Q{Nanoc3 item filter for videos}
+    gem.description = %Q{Converts videos into an html5-compatible format, including poster frames.}
     gem.email = "cameron@theaboutbox.com"
     gem.homepage = "http://github.com/theaboutbox/nanoc-video-filter"
     gem.authors = ["Cameron Pope"]
